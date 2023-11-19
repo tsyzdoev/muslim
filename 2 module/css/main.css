@@ -1,0 +1,24 @@
+/* имя тега {
+    свойство: значение;
+ } */
+
+body {
+  background-color: red;
+}
+h1 {
+  text-align: center;
+  color: rrgb(0, 255, 81);
+}
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+  width: 600px;
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+img {
+  width: 500px;
+  height: 500px;
+}
