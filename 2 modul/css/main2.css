@@ -1,0 +1,87 @@
+/* селектор {
+    свойство: значение;
+} */
+
+* {
+  padding: 0; /* внутр отступ*/
+  margin: 0; /* внеш отступ*/
+  box-sizing: border-box;
+} /* селектор который используется для всех тегов в html */
+
+body {
+  background-color: rgb(185, 13, 108);
+}
+
+main {
+  margin: auto;
+  padding: 50px;
+  width: 70%;
+  background-color: rgb(255, 254, 253);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  width: calc(50% - 40px);
+  height: calc((35vw - 40px) / 16 * 9);
+  margin: 10px;
+  background-color: orange;
+  background-position: center;
+  background-size: cover;
+  transition: all;
+}
+
+.photo:hover {
+  transform: rotate(3deg);
+  scale: (1.2);
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.photo1 {
+  background-image: url(../image/photo1.jpg);
+}
+
+.photo2 {
+  background-image: url(../image/photo2.jpg);
+}
+
+.photo3 {
+  background-image: url(../image/photo3.jpg);
+}
+
+.photo4 {
+  background-image: url(../image/photo4.jpg);
+}
+
+.photo5 {
+  background-image: url(../image/photo5.jpg);
+}
+
+.photo6 {
+  background-image: url(../image/photo6.jpg);
+}
+
+.photo7 {
+  background-image: url(../image/photo7.jpg);
+}
+
+.photo8 {
+  background-image: url(../image/photo8.jpg);
+}
+.photo9 {
+  background-image: url(https://w.forfun.com/fetch/02/0261dfae0e4904627653a2d6d5de1a4e.jpeg);
+}
+.photo10 {
+  background-image: url(https://i.artfile.ru/3798x2516_599230_%5Bwww.ArtFile.ru%5D.jpg);
+}
+.photo11 {
+  background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666328852_41-mykaleidoscope-ru-p-dovolnaya-morda-kota-krasivo-45.jpg);
+}
+.photo12 {
+  background-image: url(https://fikiwiki.com/uploads/posts/2022-02/1644991762_24-fikiwiki-com-p-prikolnie-kartinki-pro-kotov-25.jpg);
+}
